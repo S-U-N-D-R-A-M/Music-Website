@@ -7,7 +7,7 @@ import PlayerContextProvider from './context/Playercontext.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/Music-Website/">
     <PlayerContextProvider>
     <App />
     </PlayerContextProvider>
